@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~cd-themify-icons/index.css";
+@import "src/assets/vendors/line-awesome/css/line-awesome.min.css";
+@import "~animate.css/animate.min.css";
+@import "src/assets/css/main.css"
