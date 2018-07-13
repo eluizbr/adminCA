@@ -17,7 +17,8 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe(route => {
       if (route instanceof NavigationStart) {
         Helpers.setLoading(true);
-        Helpers.bodyClass('fixed-navbar');
+        // Helpers.bodyClass('fixed-navbar');
+        Helpers.bodyClass('fixed-layout');
       }
       if (route instanceof NavigationEnd) {
         window.scrollTo(0, 0);

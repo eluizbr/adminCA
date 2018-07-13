@@ -1,482 +1,416 @@
-<nav class="page-sidebar" id="sidebar">
+<div class="page-sidebar" id="sidebar">
   <div id="sidebar-collapse">
     <ul class="side-menu metismenu">
-      <li class="active">
-        <a href="javascript:;">
-          <i class="sidebar-item-icon ti-home"></i>
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
+          <i class="sidebar-item-icon ti-view-grid"></i>
           <span class="nav-label">Dashboards</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse in">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a class="active" href="index.html">Visitors</a>
+            <a routerLinkActive="active" routerLink="/index">Visitors</a>
           </li>
           <li>
-            <a href="dashboard_ecommerce.html">Shop</a>
+            <a routerLink="/ecommerce/dashboard" routerLinkActive="active">Shop</a>
           </li>
           <li>
-            <a href="dashboard_blog.html">Blog</a>
+            <a routerLink="/dashboard_blog" routerLinkActive="active">Blog</a>
           </li>
           <li>
-            <a href="dashboard_4.html">Dashboard v4</a>
+            <a routerLink="/dashboard_4" routerLinkActive="active">Dashboard v4</a>
           </li>
           <li>
-            <a href="dashboard_5.html">Dashboard v5</a>
+            <a routerLink="/dashboard_5" routerLinkActive="active">Dashboard v5</a>
           </li>
           <li>
-            <a href="dashboard_6.html">Dashboard v6</a>
+            <a routerLink="/dashboard_6" routerLinkActive="active">Dashboard v6</a>
           </li>
           <li>
-            <a href="dashboard_7.html">Dashboard v7</a>
+            <a routerLink="/dashboard_7" routerLinkActive="active">Dashboard v7</a>
           </li>
         </ul>
       </li>
       <li class="heading">FEATURES</li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-paint-roller"></i>
           <span class="nav-label">Basic UI</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="colors.html">Colors</a>
+            <a routerLink="/ui/colors" routerLinkActive="active">Colors</a>
           </li>
           <li>
-            <a href="typography.html">Typography</a>
+            <a routerLink="/ui/typography" routerLinkActive="active">Typography</a>
           </li>
           <li>
-            <a href="panels.html">Panels</a>
+            <a routerLink="/ui/panels" routerLinkActive="active">Panels</a>
           </li>
-          <li>
-            <a href="javascript:;">
+          <li routerLinkActive="active">
+            <a href="href=&quot;javascript:;&quot;">
               <span class="nav-label">Tabs</span>
               <i class="fa fa-angle-left arrow"></i>
             </a>
-            <ul class="nav-3-level collapse">
+            <ul class="nav-3-level collapse" routerLinkActive="in">
               <li>
-                <a href="tabs-pill.html">Pills</a>
+                <a routerLink="/ui/tabs-pill" routerLinkActive="active">Pills</a>
               </li>
               <li>
-                <a href="tabs-line.html">Line tabs</a>
+                <a routerLink="/ui/tabs-line" routerLinkActive="active">Line tabs</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="alerts.html">Alerts</a>
+            <a routerLink="/ui/alerts" routerLinkActive="active">Alerts</a>
           </li>
           <li>
-            <a href="tooltip_popover.html">Tooltip &amp; Popover</a>
+            <a routerLink="/ui/toastr" routerLinkActive="active">Toastr Notifications</a>
           </li>
           <li>
-            <a href="badges_progress.html">Badges &amp; Progress</a>
+            <a routerLink="/ui/tooltip_popover" routerLinkActive="active">Tooltip &amp; Popover</a>
           </li>
           <li>
-            <a href="lists.html">List</a>
+            <a routerLink="/ui/badges_progress" routerLinkActive="active">Badges &amp; Progress</a>
+          </li>
+          <li>
+            <a routerLink="/ui/lists" routerLinkActive="active">List</a>
+          </li>
+          <li>
+            <a routerLink="/ui/idle-timer" routerLinkActive="active">Idle timer</a>
+          </li>
+          <li>
+            <a routerLink="/ui/clipboard" routerLinkActive="active">Clipboard</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="javascript:;">
-          <i class="sidebar-item-icon ti-package"></i>
-          <span class="nav-label">Components</span>
-          <i class="fa fa-angle-left arrow"></i>
-        </a>
-        <ul class="nav-2-level collapse">
-          <li>
-            <a href="toastr.html">Toastr Notifications</a>
-          </li>
-          <li>
-            <a href="sweetalert.html">Sweet Alert</a>
-          </li>
-          <li>
-            <a href="alertify.html">Alertify</a>
-          </li>
-          <li>
-            <a href="idle_timer.html">Idle timer</a>
-          </li>
-          <li>
-            <a href="session_timeout.html">Session Timeout</a>
-          </li>
-          <li>
-            <a href="code_editor.html">Code Editor</a>
-          </li>
-          <li>
-            <a href="tree_view.html">Tree View</a>
-          </li>
-          <li>
-            <a href="nestable.html">Nestable List</a>
-          </li>
-          <li>
-            <a href="clipboard.html">Clipboard</a>
-          </li>
-          <li>
-            <a href="masonry.html">Masonry</a>
-          </li>
-          <li>
-            <a href="pdf_viewer.html">PDF viewer</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-heart"></i>
           <span class="nav-label">Buttons</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
-          <li>
-            <a href="javascript:;">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
+          <li routerLinkActive="active">
+            <a href="href=&quot;javascript:;&quot;">
               <span class="nav-label">Base Buttons</span>
               <i class="fa fa-angle-left arrow"></i>
             </a>
-            <ul class="nav-3-level collapse">
+            <ul class="nav-3-level collapse" routerLinkActive="in">
               <li>
-                <a href="buttons-default.html">Default style</a>
+                <a routerLink="/buttons/buttons-default" routerLinkActive="active">Default style</a>
               </li>
               <li>
-                <a href="buttons-rounded.html">Rounded style</a>
+                <a routerLink="/buttons/buttons-rounded" routerLinkActive="active">Rounded style</a>
               </li>
               <li>
-                <a href="buttons-square.html">Square style</a>
+                <a routerLink="/buttons/buttons-square" routerLinkActive="active">Square style</a>
               </li>
               <li>
-                <a href="buttons-air.html">Air style</a>
+                <a routerLink="/buttons/buttons-air" routerLinkActive="active">Air style</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="button-icon.html">Button Icon</a>
+            <a routerLink="/buttons/button-icon" routerLinkActive="active">Button Icon</a>
           </li>
           <li>
-            <a href="button-labeled.html">Labeled buttons</a>
+            <a routerLink="/buttons/button-labeled" routerLinkActive="active">Labeled buttons</a>
           </li>
           <li>
-            <a href="button-animated.html">Animated buttons</a>
+            <a routerLink="/buttons/button-animated" routerLinkActive="active">Animated buttons</a>
           </li>
           <li>
-            <a href="buttons-fab.html">FAB buttons</a>
+            <a routerLink="/buttons/buttons-fab" routerLinkActive="active">FAB buttons</a>
           </li>
           <li>
-            <a href="button-groups.html">Button Groups</a>
+            <a routerLink="/buttons/button-groups" routerLinkActive="active">Button Groups</a>
           </li>
           <li>
-            <a href="button-dropdowns.html">Button dropdowns</a>
+            <a routerLink="/buttons/button-dropdowns" routerLinkActive="active">Button dropdowns</a>
           </li>
           <li>
-            <a href="buttons-social.html">Social Buttons</a>
+            <a routerLink="/buttons/buttons-social" routerLinkActive="active">Social Buttons</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-layers-alt"></i>
           <span class="nav-label">Widgets</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="widgets-statistics.html">Statistics Widgets</a>
+            <a routerLink="/widgets/statistics" routerLinkActive="active">Statistics Widgets</a>
           </li>
           <li>
-            <a href="widgets-list.html">App &amp; List Widgets</a>
+            <a routerLink="/widgets/list" routerLinkActive="active">App &amp; List Widgets</a>
           </li>
           <li>
-            <a href="widgets-user.html">User Widgets</a>
+            <a routerLink="/widgets/user" routerLinkActive="active">User Widgets</a>
           </li>
           <li>
-            <a href="widgets-blog.html">Blog Widgets</a>
+            <a routerLink="/widgets/blog" routerLinkActive="active">Blog Widgets</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-check-box"></i>
           <span class="nav-label">Forms</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
-          <li>
-            <a href="javascript:;">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
+          <li routerLinkActive="active">
+            <a href="href=&quot;javascript:;&quot;">
               <span class="nav-label">Form Controls</span>
               <i class="fa fa-angle-left arrow"></i>
             </a>
-            <ul class="nav-3-level collapse">
+            <ul class="nav-3-level collapse" routerLinkActive="in">
               <li>
-                <a href="form-controls.html">Inputs</a>
+                <a routerLink="/forms/form-controls/inputs" routerLinkActive="active">Inputs</a>
               </li>
               <li>
-                <a href="form-switch.html">Switch</a>
+                <a routerLink="/forms/form-controls/switch" routerLinkActive="active">Switch</a>
               </li>
               <li>
-                <a href="form-checkbox-radio.html">Checkbox &amp; Radio</a>
+                <a routerLink="/forms/form-controls/checkbox-radio" routerLinkActive="active">Checkbox &amp; Radio</a>
               </li>
               <li>
-                <a href="form-input-groups.html">Input Groups</a>
+                <a routerLink="/forms/form-controls/input-groups" routerLinkActive="active">Input Groups</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="form_layouts.html">Form Layouts</a>
+            <a routerLink="/forms/form_layouts" routerLinkActive="active">Form Layouts</a>
           </li>
           <li>
-            <a href="form_advanced.html">Advanced Plugins</a>
+            <a routerLink="/forms/form_advanced" routerLinkActive="active">Advanced Plugins</a>
           </li>
           <li>
-            <a href="form_masks.html">Form input masks</a>
+            <a routerLink="/forms/form_masks" routerLinkActive="active">Form input masks</a>
           </li>
           <li>
-            <a href="form_validation.html">Form Validation</a>
+            <a routerLink="/forms/form_validation" routerLinkActive="active">Form Validation</a>
           </li>
           <li>
-            <a href="text_editors.html">Text Editors</a>
+            <a routerLink="/forms/text_editors" routerLinkActive="active">Text Editors</a>
           </li>
           <li>
-            <a href="form_dropzone.html">Dropzone File Upload</a>
-          </li>
-          <li>
-            <a href="image_cropping.html">Image Cropping</a>
-          </li>
-          <li>
-            <a href="autocomplete.html">Autocomplete</a>
-          </li>
-          <li>
-            <a href="form_wizard.html">Form Wizard</a>
+            <a routerLink="/forms/autocomplete" routerLinkActive="active">Autocomplete</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-layout-tab-window"></i>
           <span class="nav-label">Tables</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="table_basic.html">Basic Tables</a>
+            <a routerLink="/tables/basic" routerLinkActive="active">Basic Tables</a>
           </li>
           <li>
-            <a href="datatables.html">Datatables</a>
+            <a routerLink="/tables/datatables" routerLinkActive="active">Datatables</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-bar-chart"></i>
           <span class="nav-label">Charts</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="charts_flot.html">Flot Charts</a>
+            <a routerLink="/charts/chartjs" routerLinkActive="active">Chart.js</a>
           </li>
           <li>
-            <a href="charts_morris.html">Morris Charts</a>
+            <a routerLink="/charts/charts_morris" routerLinkActive="active">Morris Charts</a>
           </li>
           <li>
-            <a href="chartjs.html">Chart.js</a>
+            <a routerLink="/charts/charts_peity" routerLinkActive="active">Peity Charts</a>
           </li>
           <li>
-            <a href="c3.html">C3 Charts</a>
-          </li>
-          <li>
-            <a href="charts_peity.html">Peity Charts</a>
-          </li>
-          <li>
-            <a href="charts_sparkline.html">Sparkline Charts</a>
-          </li>
-          <li>
-            <a href="charts_rickshaw.html">Rickshaw Charts</a>
+            <a routerLink="/charts/charts_sparkline" routerLinkActive="active">Sparkline Charts</a>
           </li>
         </ul>
       </li>
       <li>
-        <a href="javascript:;">
+        <a routerLink="/maps_vector" routerLinkActive="active">
           <i class="sidebar-item-icon ti-map-alt"></i>
-          <span class="nav-label">Maps</span>
-          <i class="fa fa-angle-left arrow"></i>
+          <span class="nav-label">Vector maps</span>
         </a>
-        <ul class="nav-2-level collapse">
-          <li>
-            <a href="maps_google.html">Google maps</a>
-          </li>
-          <li>
-            <a href="datamaps.html">Datamaps</a>
-          </li>
-          <li>
-            <a href="maps_vector.html">Vector maps</a>
-          </li>
-        </ul>
       </li>
       <li>
-        <a href="icons.html">
+        <a routerLink="/ui/icons" routerLinkActive="active">
           <i class="sidebar-item-icon ti-comments-smiley"></i>
           <span class="nav-label">Icons</span>
         </a>
       </li>
       <li class="heading">PAGES</li>
       <li>
-        <a href="mailbox.html">
+        <a routerLink="/mailbox" routerLinkActive="active">
           <i class="sidebar-item-icon ti-email"></i>
           <span class="nav-label">Mailbox</span>
         </a>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-pencil"></i>
           <span class="nav-label">Blog</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="blog_list.html">List</a>
+            <a routerLink="/blog/blog_list" routerLinkActive="active">List</a>
           </li>
           <li>
-            <a href="article.html">Article</a>
+            <a routerLink="/blog/article" routerLinkActive="active">Article</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-shopping-cart"></i>
           <span class="nav-label">E-Commerce</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="dashboard_ecommerce.html">Dashboard</a>
+            <a routerLink="/ecommerce/dashboard" routerLinkActive="active">Dashboard</a>
           </li>
           <li>
-            <a href="ecommerce_products_list.html">Products list</a>
+            <a routerLink="/ecommerce/products_list" routerLinkActive="active">Products list</a>
           </li>
           <li>
-            <a href="ecommerce_add_product.html">Add new product</a>
+            <a routerLink="/ecommerce/add_product" routerLinkActive="active">Add new product</a>
           </li>
           <li>
-            <a href="ecommerce_orders_list.html">Orders list</a>
+            <a routerLink="/ecommerce/orders_list" routerLinkActive="active">Orders list</a>
           </li>
           <li>
-            <a href="ecommerce_order_details.html">Order details</a>
+            <a routerLink="/ecommerce/order_details" routerLinkActive="active">Order details</a>
           </li>
           <li>
-            <a href="invoice.html">Invoice</a>
+            <a routerLink="/ecommerce/invoice" routerLinkActive="active">Invoice</a>
           </li>
           <li>
-            <a href="ecommerce_customers.html">Customers</a>
+            <a routerLink="/ecommerce/customers" routerLinkActive="active">Customers</a>
           </li>
         </ul>
       </li>
       <li>
-        <a href="calendar.html">
+        <a routerLink="/calendar" routerLinkActive="active">
           <i class="sidebar-item-icon ti-calendar"></i>
           <span class="nav-label">Calendar</span>
         </a>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-files"></i>
           <span class="nav-label">General Pages</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="faq.html">FAQ</a>
+            <a routerLink="/faq" routerLinkActive="active">FAQ</a>
           </li>
           <li>
-            <a href="search.html">Search</a>
+            <a routerLink="/search" routerLinkActive="active">Search</a>
           </li>
           <li>
-            <a href="timeline.html">Timeline</a>
+            <a routerLink="/timeline" routerLinkActive="active">Timeline</a>
           </li>
           <li>
-            <a href="timeline_horizontal.html">Horizontal timeline</a>
+            <a routerLink="/pricing-table-1" routerLinkActive="active">Pricing Table v1</a>
           </li>
           <li>
-            <a href="pricing-table-1.html">Pricing Table v1</a>
+            <a routerLink="/pricing-table-2" routerLinkActive="active">Pricing Table v2</a>
           </li>
           <li>
-            <a href="pricing-table-2.html">Pricing Table v2</a>
+            <a routerLink="/pricing-table-3" routerLinkActive="active">Pricing Table v3</a>
           </li>
           <li>
-            <a href="pricing-table-3.html">Pricing Table v3</a>
+            <a routerLink="/pricing-table-4" routerLinkActive="active">Pricing Table v4</a>
           </li>
           <li>
-            <a href="pricing-table-4.html">Pricing Table v4</a>
+            <a routerLink="/pricing-table-5" routerLinkActive="active">Pricing Table v5</a>
           </li>
           <li>
-            <a href="pricing-table-5.html">Pricing Table v5</a>
-          </li>
-          <li>
-            <a href="pricing-table-6.html">Pricing Table v6</a>
+            <a routerLink="/pricing-table-6" routerLinkActive="active">Pricing Table v6</a>
           </li>
         </ul>
       </li>
-      <li>
-        <a href="javascript:;">
+      <li routerLinkActive="active">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-user"></i>
           <span class="nav-label">Custom Pages</span>
           <i class="fa fa-angle-left arrow"></i>
         </a>
-        <ul class="nav-2-level collapse">
+        <ul class="nav-2-level collapse" routerLinkActive="in">
           <li>
-            <a href="javascript:;">
+            <a href="href=&quot;javascript:;&quot;">
               <span class="nav-label">User Pages</span>
               <i class="fa fa-angle-left arrow"></i>
             </a>
-            <ul class="nav-3-level collapse">
+            <ul class="nav-3-level collapse" routerLinkActive="in">
               <li>
-                <a href="profile.html">Profile</a>
+                <a routerLink="/profile" routerLinkActive="active">Profile</a>
               </li>
               <li>
-                <a href="login.html">Login v1</a>
+                <a routerLink="/login" routerLinkActive="active">Login v1</a>
               </li>
               <li>
-                <a href="login-2.html">Login v2</a>
+                <a routerLink="/login-2" routerLinkActive="active">Login v2</a>
               </li>
               <li>
-                <a href="login-3.html">Login v3</a>
+                <a routerLink="/login-3" routerLinkActive="active">Login v3</a>
               </li>
               <li>
-                <a href="login-4.html">Login v4</a>
+                <a routerLink="/login-4" routerLinkActive="active">Login v4</a>
               </li>
               <li>
-                <a href="login-5.html">Login v5</a>
+                <a routerLink="/login-5" routerLinkActive="active">Login v5</a>
               </li>
               <li>
-                <a href="lockscreen.html">Lockscreen</a>
+                <a routerLink="/lockscreen" routerLinkActive="active">Lockscreen</a>
               </li>
               <li>
-                <a href="forgot_password.html">Forgot password</a>
+                <a routerLink="/forgot_password" routerLinkActive="active">Forgot password</a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="javascript:;">
+            <a href="href=&quot;javascript:;&quot;">
               <span class="nav-label">Error Pages</span>
               <i class="fa fa-angle-left arrow"></i>
             </a>
-            <ul class="nav-3-level collapse">
+            <ul class="nav-3-level collapse" routerLinkActive="in">
               <li>
-                <a href="error_404.html">404 error</a>
+                <a routerLink="/error_404" routerLinkActive="active">404 error</a>
               </li>
               <li>
-                <a href="error_404-2.html">404 error v2</a>
+                <a routerLink="/error_404-2" routerLinkActive="active">404 error v2</a>
               </li>
               <li>
-                <a href="error_403.html">403 error</a>
+                <a routerLink="/error_403" routerLinkActive="active">403 error</a>
               </li>
               <li>
-                <a href="error_500.html">500 error</a>
+                <a routerLink="/error_500" routerLinkActive="active">500 error</a>
               </li>
               <li>
-                <a href="maintenance.html">Maintenance Mode</a>
+                <a routerLink="/maintenance" routerLinkActive="active">Maintenance Mode</a>
               </li>
             </ul>
           </li>
         </ul>
       </li>
       <li>
-        <a href="javascript:;">
+        <a href="href=&quot;javascript:;&quot;">
           <i class="sidebar-item-icon ti-anchor"></i>
           <span class="nav-label">Menu Levels</span>
           <i class="fa fa-angle-left arrow"></i>
@@ -486,7 +420,7 @@
             <a href="javascript:;">Level 2</a>
           </li>
           <li>
-            <a href="javascript:;">
+            <a href="href=&quot;javascript:;&quot;">
               <span class="nav-label">Level 2</span>
               <i class="fa fa-angle-left arrow"></i>
             </a>
@@ -506,10 +440,10 @@
       <a href="javascript:;">
         <i class="ti-announcement"></i>
       </a>
-      <a href="calendar.html">
+      <a routerLink="/calendar">
         <i class="ti-calendar"></i>
       </a>
-      <a href="javascript:;">
+      <a routerLink="/mailbox">
         <i class="ti-comments"></i>
       </a>
       <a href="login.html">
@@ -517,4 +451,7 @@
       </a>
     </div>
   </div>
-</nav>
+
+
+
+</div>
