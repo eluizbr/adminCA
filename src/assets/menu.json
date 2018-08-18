@@ -1,0 +1,22 @@
+[
+  {
+    "recurso": "DASHBOARD",
+    "icon": "ti-view-grid",
+    "menuItem": []
+  },
+  {
+    "heading": "ORÇAMENTOS",
+    "menuItem": [
+      {
+        "label": "Grupos",
+        "icon": "ti-user",
+        "links": [
+          {
+            "label": "Listar",
+            "link": "/grupos/listar"
+          }
+        ]
+      }
+    ]
+  }
+]

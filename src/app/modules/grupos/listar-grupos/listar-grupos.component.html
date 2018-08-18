@@ -1,0 +1,70 @@
+<div class="page-heading">
+  <h1 class="page-title">Grupos / Listar</h1>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a routerLink='/'>
+        <i class="la la-home font-20"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item">Grupos</li>
+  </ol>
+</div>
+<div class="page-content fade-in-up">
+  <div class="row" *ngFor="let grupo of ( grupos$ | async ).docs">
+    <div class="col-md-6 offset-md-3">
+      <div class="ibox">
+
+        <div class="ibox-head">
+          <div class="ibox-title">{{ grupo.descricaoGrupo }}</div>
+          <div class="ibox-tools">
+            <a class="ibox-collapse">
+              <i class="ti-angle-down"></i>
+            </a>
+            <a class="dropdown-toggle" data-toggle="dropdown">
+              <i class="ti-more-alt"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" (click)="showModal()">
+                <i class="ti-plus"></i>Add Pacote</a>
+              <!-- <a class="dropdown-item">
+                <i class="ti-pencil-alt"></i>Edit</a>
+              <a class="dropdown-item">
+                <i class="ti-close"></i>Remove</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="ibox-body" style="display: none;">
+          <div class="ibox-fullwidth-block">
+            <table class="table table-hover">
+              <thead class="thead-default thead-lg">
+                <tr class="text-center">
+                  <th class="pl-4">Pacote</th>
+                  <th>Conta Contabil</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let pacote of grupo.pacotes" class="text-center">
+
+                  <td>{{pacote.descricaoPacote}}</td>
+                  <td>{{pacote. descricaoPacote}}</td>
+
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<nz-modal [(nzVisible)]="isVisible" nzTitle="The first Modal" (nzOnCancel)="handleCancel()" (nzOnOk)="handleOk($event)">
+  <nz-select name="listOfTagOptions" nzMode="tags" style="width: 100%; z-index: 0;" nzPlaceHolder="Selecione um ou mais pacotes"
+    [(ngModel)]="listOfTagOptions">
+    <nz-option *ngFor="let option of listOfOption" [nzLabel]="option.descricaoPacote" [nzValue]="option._id">
+    </nz-option>
+  </nz-select>
+</nz-modal>
